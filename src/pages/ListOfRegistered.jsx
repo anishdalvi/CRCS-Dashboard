@@ -7,7 +7,7 @@ import { Header } from '../components'
 
 const ListOfRegistered = () => {
   const toolbarOptions = ['Search'];
-  
+
   return (
     <div className='m-2 mt-20 md:m-10 p-2 md:p-10 bg-white rounded-3xl'> 
       <Header category = "Page" title = "List Of Registered Societies" />
@@ -23,7 +23,7 @@ const ListOfRegistered = () => {
             <ColumnDirective key = {index} {...item} />
           ) )}
         </ColumnsDirective>
-        <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport, Edit, Search]} />
+        <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport, Edit, Search, Toolbar]} />
       </GridComponent>
       
 

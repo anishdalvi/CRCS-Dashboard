@@ -9,7 +9,7 @@ export const stateData = [
         { state:'GUJARAT', regs:4 },
         { state:'HARYANA', regs:4 },
         { state:'BIHAR', regs:3 },
-        { state:'MADHregsA PRADESH', regs:3 },
+        { state:'MADHYA PRADESH', regs:3 },
         { state:'MANIPUR', regs:3 },
         { state:'ANDHRA PRADESH', regs:2 },
         { state:'JAMMU AND KASHMIR', regs:1 },
