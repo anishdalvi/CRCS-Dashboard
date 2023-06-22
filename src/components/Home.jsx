@@ -22,13 +22,12 @@ const Home = () => {
             <div className='w-5/6 pl-10'>
               <p className='font-bold text-xl md:text-2xl '>MULTI-STATE CO-OPERATIVE SOCIETIES</p>
               <p className='text-lg md:text-xl'>Ministry of Cooperation, Govt. of India</p>
+              
             </div>
           </div>
-          {/* <div className='mt-6'>
-            <button>Download Report</button>
-          </div> */}
+        
         </div> {/* Earning Ends */}
-        <div className='flex m-3 flex-nowrap justify-evenly gap-4 items-center lg:w-2/5'>
+        <div className='flex m-3 justify-evenly gap-4 items-center lg:w-2/5'>
             <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-60 p-3 md:p-4 pt-2 md:pt-5 rounded-2xl flex-col gap-2 justify-center'>
               <div className='items-center flex'>
                 <button type='button'
@@ -50,9 +49,7 @@ const Home = () => {
                     30,000
                   </span>
                 
-                  {/* <span className={`text-sm text-green-600 ml-2`}>
-                    33%
-                  </span> */}
+              
                 
               </div>
           
@@ -79,16 +76,14 @@ const Home = () => {
                     11,234
                   </span>
                 
-                  {/* <span className={`text-sm text-green-600 ml-2`}>
-                    33%
-                  </span> */}
+                  
                 
               </div>
           
             </div> {/* bg white grid div */}
 
             <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-60 p-3 md:p-4 pt-2 md:pt-5 rounded-2xl flex-col gap-2 justify-center'>
-              <div className='items-center flex'>
+              <div className='items-center flex px-4'>
                 <button type='button'
                   className='rounded-full p-2 md:p-4 opacity-0.9 hover:drop-shadow-2xl'
                 >
@@ -118,14 +113,73 @@ const Home = () => {
       
       {/* News */}
 
-      <div className='flex flex-wrap lg:flex-nowrap justify-center mt-4'>
+      <div className='flex flex-wrap lg:flex-nowrap justify-center mt-4 mr-4'>
 
-        <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl w-1/2  p-5 pt-6 m-4 lg:m-1 lg:ml-3'>
-                  
+        <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl w-full md:w-3/5  p-5 pt-6 m-4 lg:m-1 lg:ml-3'>
+                  <div className='m-3'>
+                    <p className='font-bold text-lg md:text-xl uppercase'>News and Events</p>
+                    <p className='mt-3'>
+                      <ul className='list-disc ml-4 md:ml-5 text-sm md:text-base'>
+                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, aut.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil.</li>
+                      </ul>
+                    </p>
+                  </div>
         </div>
 
-        <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl w-1/2 p-5 pt-6 m-4 lg:m-1 lg:ml-3'>
+        <div className='w-full md:w-2/5 md:p-5 pt-6 md:m-4 lg:m-1 lg:ml-3'>
+                  <div className="flex md:flex-col gap-4">
 
+                    <div className=' bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl'>
+                        <div className="p-6">
+                          <p className='font-bold text-base md:text-xl uppercase'>Latest Hearings</p>
+                          <p className='mt-3'>
+                            <ul className='list-disc ml-4 md:ml-5 text-sm md:text-base'>
+                              <li>Lorem ipsum dolor sit.</li>
+                              <li>Lorem ipsum dolor sit amet consectetur.</li>
+                              <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                          </p>          
+                        </div>
+                    </div>
+
+                    <div className=' bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl'>
+                        <div className="p-6">
+                          <p className='font-bold text-base md:text-xl uppercase'>Latest Certificates</p>
+                          <p className='mt-3'>
+                            <ul className='list-disc ml-4 md:ml-5 text-sm md:text-base'>
+                              <li>Lorem ipsum dolor sit.</li>
+                              <li>Lorem ipsum dolor sit amet consectetur.</li>
+                              <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                          </p>
+                        </div>
+                    </div>
+
+                    <div className=' bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl'>
+                        <div className="p-6">
+                          <p className='font-bold text-base md:text-xl uppercase'>Latest Order Sheets</p>
+                          <p className='mt-3'>
+                            <ul className='list-disc ml-4 md:ml-5 text-sm md:text-base'>
+                              <li>Lorem ipsum dolor sit.</li>
+                              <li>Lorem ipsum dolor sit amet consectetur.</li>
+                              <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                          </p>
+                        </div>
+                    </div>
+
+                   
+
+                    
+
+                    
+
+                   
+                  </div>
         </div>
 
          

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <div className='flex relative dark:bg-main-dark-bg bg-main-bg w-full h-screen'>
+      <div className='flex relative dark:bg-main-dark-bg bg-main-bg w-full h-full'>
           {activeMenu ? ( // width = 18rem
             <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white">
               <Sidebar />
