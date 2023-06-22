@@ -108,10 +108,6 @@ const Home = () => {
                     124
                   </span>
                 
-                  {/* <span className={`text-sm text-green-600 ml-2`}>
-                    33%
-                  </span> */}
-                
               </div>
           
             </div> {/* bg white grid div */}
