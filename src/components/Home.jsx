@@ -3,8 +3,6 @@ import { MdOutlineSupervisorAccount } from 'react-icons/md';
 import { HiOutlineNewspaper } from 'react-icons/hi';
 import { AiOutlineAntDesign } from 'react-icons/ai';
 
-import mscs_logo from '../images/mscs_logo.png'
-
 
 const Home = () => {
   return (
@@ -14,7 +12,7 @@ const Home = () => {
         <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl w-full lg:w-3/5 p-5 pt-6 m-4 lg:m-1 lg:ml-3'>
           <div className="flex items-center">
             <div className='ml-5 w-1/6'>
-              <img src={mscs_logo} alt="Logo" 
+              <img src="https://github.com/anishdalvi/CRCS-Dashboard/blob/master/src/images/mscs_logo.png?raw=true" alt="Logo" 
               className='' style={{maxHeight:'160px'}} />
                
             </div>
